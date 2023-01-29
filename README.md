@@ -19,3 +19,31 @@
 ### Note
 
 - **auth** is a middleware that check for authentication for protected routes.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/subh-cs/Rest-Blog-CasualFunnel.git
+```
+
+Go to the project directory
+
+```bash
+  cd Rest-Blog-CasualFunnel
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
