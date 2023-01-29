@@ -83,11 +83,11 @@ const loginUser = async (req, res) => {
         .status(400)
         .json({ message: "User not registered with this email" });
     }
-    if (!bcrypt.compare(password, user.password)) {
+    if (!await bcrypt.compare(password, user.password)) {
       return res.status(400).json({ message: "Incorrect password" });
     }
     // generate jwt token and return
-    const token = jwt.sign({ id: user._id }, process.env.ACCESS_TOKEN_SECRET, {
+    const token = await jwt.sign({ id: user._id }, process.env.ACCESS_TOKEN_SECRET, {
       expiresIn: "1h",
     });
     res.status(200).json({
