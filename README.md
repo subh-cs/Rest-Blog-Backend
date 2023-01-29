@@ -1,5 +1,8 @@
 ## API Routes
 
+### Preview video link:
+ Watch on 1.5x [Click Here](https://www.loom.com/share/490c8d3fa3ed43d0a7e76dab15df7cdb)
+
 ### User Routes
 
 - **POST** `/register`: Registers a new user.
