@@ -29,13 +29,13 @@ This is a backend server for a blog web application that follows MVC architectur
 Clone the project
 
 ```bash
-  git clone https://github.com/subh-cs/Rest-Blog-CasualFunnel.git
+  git clone https://github.com/subh-cs/Rest-Blog-Backend.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Rest-Blog-CasualFunnel
+  cd Rest-Blog-Backend
 ```
 
 Install dependencies
